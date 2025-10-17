@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjeet Singh | Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Particle Background -->
+    <div class="particles-container" id="particlesContainer"></div>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <header class="header">
+        <div class="header-left">
+            <img src="icon/icon-512.webp" alt="Harjeet Singh">
+            <div class="logo-text">Harjeet Singh</div>
+        </div>
+        <div class="header-right">
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="menu-toggle" id="menuToggle">
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="nav-menu" id="navMenu">
+        <div class="close-menu" id="closeMenu">
+            <i class="fas fa-times"></i>
+        </div>
+        <a href="#home"><i class="fas fa-home"></i> Home</a>
+        <a href="#skills"><i class="fas fa-code"></i> Skills</a>
+        <a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a>
+        <a href="#previews"><i class="fas fa-eye"></i> Live Previews</a>
+        <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+
+    <div class="hero" id="home">
+        <div class="hero-left">
+            <h2> ✨ Hey there! </h2> <div class="hero-right">
+            <i class="fa-solid fa-heart-circle-bolt"></i>
+        </div>
+            <p>
+                I'm Harjeet Singh, a creative web developer who transforms ideas into interactive digital experiences.
+                <br>
+                💻I build websites that look stunning, feel smooth, and perform fast — powered by HTML, CSS, and JS
+                magic. <br>
+                🌈 Code. Design. Create. Repeat.
+            </p>
+        </div>
+       
+    </div>
+
+    <div class="center-star">
+        <i class="fa-solid fa-star"></i>
+    </div>
+
+    <div class="boxes" id="projects">
+        <div class="box1">
+            <div class="box1-part1">
+                <a href="https://n11home.vercel.app/"><img src="icon/n11.png" alt="n11"></a>
+            </div>
+            <div class="box1-part2">
+                <a href="https://build-resume-flax.vercel.app/"><img src="icon/resumebuilder.png" alt="resumebuilder"></a>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="box2-part1">
+                <a href="https://jwork.pages.dev/"><img src="icon/jwork.png" alt="Jwork"></a>
+            </div>
+            <div class="box2-part2">
+                <a href="https://maxii.pages.dev/"><img src="icon/jsflash.png" alt="JSW Flash"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills-section" id="skills">
+        <h2 class="skills-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <i class="fab fa-html5 skill-icon"></i>
+                <span class="skill-name">HTML5</span>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-css3-alt skill-icon"></i>
+                <span class="skill-name">CSS3</span>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-js skill-icon"></i>
+                <span class="skill-name">JavaScript</span>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-react skill-icon"></i>
+                <span class="skill-name">React</span>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-node-js skill-icon"></i>
+                <span class="skill-name">Node.js</span>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-git-alt skill-icon"></i>
+                <span class="skill-name">Git</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="projects-section">
+        <h2 class="projects-title">My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <i class="fas fa-home project-icon fa-fade"></i>
+                <h3 class="project-name">N11 Home</h3>
+                <p class="project-desc">Modern responsive home design with interactive elements</p>
+                <a href="https://n11home.vercel.app/" class="project-link" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <i class="fas fa-file-alt project-icon fa-fade"></i>
+                <h3 class="project-name">Resume Builder</h3>
+                <p class="project-desc">Create professional resumes with customizable templates</p>
+                <a href="https://build-resume-flax.vercel.app/" class="project-link" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+             <i class="fa-brands fa-js fa-fade fa-2x project-icon"></i>
+                <h3 class="project-name">JWork</h3>
+                <p class="project-desc">Js Code Playground IDE, broswer extenstions support</p>
+                <a href="https://jwork.pages.dev/" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <i class="fas fa-tasks project-icon fa-fade"></i>
+                <h3 class="project-name">JSW Flash</h3>
+                <p class="project-desc">Productivity app for managing daily tasks and Schedule</p>
+                <a href="https://maxii.pages.dev/" class="project-link">View Project</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Preview Section -->
+    <div class="project-preview-section" id="previews">
+        <h2 class="preview-title">Live Project Previews</h2>
+        <div class="preview-container">
+            <div class="preview-item">
+                <div class="preview-header">
+                    <div class="preview-title-text">N11 Home </div>
+                    <div class="preview-controls">
+                        <div class="preview-control close"></div>
+                        <div class="preview-control minimize"></div>
+                        <div class="preview-control maximize"></div>
+                    </div>
+                </div>
+                <div class="preview-frame-container">
+                    <iframe src="https://n11home.vercel.app/" class="preview-frame" title="N11 Home Preview"></iframe>
+                </div>
+                <div class="preview-footer">
+                    <a href="https://n11home.vercel.app/" class="preview-link" target="_blank">Visit Live Site</a>
+                    <div class="preview-tech">HTML5 • CSS3 • JavaScript</div>
+                </div>
+            </div>
+            
+          
+        </div>
+    </div>
+<div class="finisher-line">
+  <!-- Left Static Fish (lead fish) -->
+  <div class="fish-left">
+    <i class="fa-solid fa-fish-fins fa-shake fa-bounce fa-3x" style="color: var(--accent-color);"></i>
+  </div>
+
+  <!-- Moving Marquee -->
+  <div class="marquee-wrapper">
+    <div class="marquee-container">
+      <!-- Repeated fish icons -->
+      <div class="marquee-item"><i class="fa-solid fa-fish-fins fa-2x fa-fade" style="color: var(--accent-color);"></i></div>
+      <div class="marquee-item"><i class="fa-solid fa-fish-fins fa-2x fa-fade" style="color: var(--accent-color-2);"></i></div>
+      <div class="marquee-item"><i class="fa-solid fa-fish-fins fa-2x fa-fade" style="color: var(--accent-color);"></i></div>
+      <div class="marquee-item"><i class="fa-solid fa-fish-fins fa-2x fa-fade" style="color: var(--accent-color-2);"></i></div>
+      <div class="marquee-item"><i class="fa-solid fa-fish-fins fa-2x fa-fade" style="color: var(--accent-color);"></i></div>
+      <div class="marquee-item"><i class="fa-solid fa-fish-fins fa-2x fa-fade" style="color: var(--accent-color-2);"></i></div>
+
+      <!-- Duplicate for smooth continuous loop -->
+      <div class="marquee-item"><i class="fa-solid fa-fish-fins fa-2x fa-fade" style="color: var(--accent-color);"></i></div>
+      <div class="marquee-item"><i class="fa-solid fa-fish-fins fa-2x fa-fade" style="color: var(--accent-color-2);"></i></div>
+      <div class="marquee-item"><i class="fa-solid fa-fish-fins fa-2x fa-fade" style="color: var(--accent-color);"></i></div>
+      <div class="marquee-item"><i class="fa-solid fa-fish-fins fa-2x fa-fade" style="color: var(--accent-color-2);"></i></div>
+      <div class="marquee-item"><i class="fa-solid fa-fish-fins fa-2x fa-fade" style="color: var(--accent-color);"></i></div>
+      <div class="marquee-item"><i class="fa-solid fa-fish-fins fa-2x fa-fade" style="color: var(--accent-color-2);"></i></div>
+    </div>
+  </div>
+</div>
+
+    <div class="rapid" id="contact">
+        <div class="slide-arrow">
+            <i class="fa-solid fa-circle-left"></i>
+        </div>
+        <div class="rapid-show">
+            <a href="https://github.com/amd5500gt" class="github" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <div class="triangle-links">
+                <!-- WhatsApp -->
+                <a href="https://wa.me/9517250799" target="_blank" class="whatsapp" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                
+                <!-- Instagram -->
+                <a href="https://instagram.com/ht_next_level" target="_blank" class="instagram" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                
+                <!-- Email -->
+                <a href="mailto:souran.g345@gmail.com" target="_blank" class="email" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Harjeet Singh. All Rights Reserved.</p>
+    </div>
+
+    <script>
+        // Loading Screen
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('loadingScreen').classList.add('hidden');
+            }, 1000);
+        });
+
+        // Custom Cursor
+        const cursor = document.getElementById('cursor');
+        const cursorFollower = document.getElementById('cursorFollower');
+        
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+            
+            setTimeout(() => {
+                cursorFollower.style.left = e.clientX + 'px';
+                cursorFollower.style.top = e.clientY + 'px';
+            }, 50);
+        });
+        
+        // Color changing for cursor follower
+        function changeCursorColor() {
+            const colors = [
+                'var(--accent-color)',
+                'var(--accent-color-2)',
+                '#ffdd99',
+                '#a0ffa0',
+                '#ffa0a0'
+            ];
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
+            cursorFollower.style.borderColor = randomColor;
+        }
+        
+        // Change cursor color every 2 seconds
+        setInterval(changeCursorColor, 2000);
+        
+        // Interactive cursor effects
+        document.querySelectorAll('a, button, .menu-toggle, .close-menu, .theme-toggle, .scroll-to-top, .center-star i, .preview-control').forEach(element => {
+            element.addEventListener('mouseenter', () => {
+                cursor.style.transform = 'scale(1.5)';
+                cursorFollower.style.transform = 'scale(1.5)';
+            });
+            
+            element.addEventListener('mouseleave', () => {
+                cursor.style.transform = 'scale(1)';
+                cursorFollower.style.transform = 'scale(1)';
+            });
+        });
+
+        // Particle Background
+        function createParticles() {
+            const container = document.getElementById('particlesContainer');
+            const particleCount = 15;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+                
+                // Random size between 20px and 100px
+                const size = Math.random() * 80 + 20;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                
+                // Random position
+                particle.style.left = `${Math.random() * 100}%`;
+                particle.style.top = `${Math.random() * 100}%`;
+                
+                // Random animation delay
+                particle.style.animationDelay = `${Math.random() * 20}s`;
+                
+                // Random color based on theme
+                const isLightMode = document.body.classList.contains('light-mode');
+                const colors = isLightMode 
+                    ? ['rgba(74, 74, 255, 0.2)', 'rgba(255, 107, 107, 0.2)', 'rgba(255, 221, 153, 0.2)']
+                    : ['rgba(160, 192, 255, 0.2)', 'rgba(255, 154, 158, 0.2)', 'rgba(255, 221, 153, 0.2)'];
+                
+                const randomColor = colors[Math.floor(Math.random() * colors.length)];
+                particle.style.background = `radial-gradient(circle, ${randomColor}, transparent)`;
+                
+                container.appendChild(particle);
+            }
+        }
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+        
+        themeToggle.addEventListener('click', function() {
+            body.classList.toggle('light-mode');
+            
+            // Recreate particles with new colors
+            document.getElementById('particlesContainer').innerHTML = '';
+            createParticles();
+            
+            // Save theme preference to localStorage
+            if (body.classList.contains('light-mode')) {
+                localStorage.setItem('theme', 'light');
+            } else {
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+        
+        // Check for saved theme preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light') {
+            body.classList.add('light-mode');
+        }
+
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+        const closeMenu = document.getElementById('closeMenu');
+        const menuSpans = document.querySelectorAll('.menu-toggle span');
+
+        menuToggle.addEventListener('click', function() {
+            navMenu.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            
+            // Animate menu bars
+            menuSpans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+            menuSpans[1].style.opacity = '0';
+            menuSpans[2].style.transform = 'rotate(-45deg) translate(7px, -6px)';
+        });
+
+        closeMenu.addEventListener('click', function() {
+            navMenu.classList.remove('active');
+            document.body.style.overflow = 'auto';
+            
+            // Reset menu bars
+            menuSpans[0].style.transform = 'none';
+            menuSpans[1].style.opacity = '1';
+            menuSpans[2].style.transform = 'none';
+        });
+
+        // Close menu when clicking on a link
+        const navLinks = document.querySelectorAll('.nav-menu a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navMenu.classList.remove('active');
+                document.body.style.overflow = 'auto';
+                
+                // Reset menu bars
+                menuSpans[0].style.transform = 'none';
+                menuSpans[1].style.opacity = '1';
+                menuSpans[2].style.transform = 'none';
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Star animation
+        const star = document.querySelector('.center-star i');
+        star.addEventListener('click', function() {
+            star.style.transform = star.style.transform === 'rotate(360deg) scale(1.5)' ? '' : 'rotate(360deg) scale(1.5)';
+            star.style.transition = 'transform 1s ease';
+            
+            setTimeout(() => {
+                star.style.transform = '';
+            }, 1000);
+        });
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.style.background = body.classList.contains('light-mode') 
+                    ? 'linear-gradient(125deg, rgba(180, 180, 255, 0.98), rgba(160, 160, 255, 0.95))'
+                    : 'linear-gradient(125deg, rgba(10, 5, 30, 0.98), rgba(20, 10, 50, 0.95))';
+                header.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.4)';
+            } else {
+                header.style.background = body.classList.contains('light-mode')
+                    ? 'linear-gradient(125deg, rgba(150, 150, 255, 0.95), rgba(130, 130, 255, 0.9))'
+                    : 'linear-gradient(125deg, rgba(10, 5, 30, 0.95), rgba(20, 10, 50, 0.9))';
+                header.style.boxShadow = '0 2px 15px rgba(0, 0, 0, 0.3)';
+            }
+            
+            // Show/hide scroll to top button
+            const scrollToTop = document.getElementById('scrollToTop');
+            if (window.scrollY > 300) {
+                scrollToTop.classList.add('active');
+            } else {
+                scrollToTop.classList.remove('active');
+            }
+        });
+
+        // Scroll to top functionality
+        document.getElementById('scrollToTop').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Add animation to skill items on scroll
+        const skillItems = document.querySelectorAll('.skill-item');
+        const projectCards = document.querySelectorAll('.project-card');
+        
+        function checkScroll() {
+            skillItems.forEach(item => {
+                const itemTop = item.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (itemTop < windowHeight - 100) {
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateY(0)';
+                }
+            });
+            
+            projectCards.forEach(card => {
+                const cardTop = card.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (cardTop < windowHeight - 100) {
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }
+            });
+        }
+        
+        // Initialize elements with hidden state
+        skillItems.forEach(item => {
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(20px)';
+            item.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        });
+        
+        projectCards.forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        });
+        
+        window.addEventListener('scroll', checkScroll);
+        window.addEventListener('load', checkScroll);
+
+        // Add typing effect to hero text
+        const heroText = document.querySelector('.hero-left p');
+        const originalText = heroText.textContent;
+        heroText.textContent = '';
+        
+        let i = 0;
+        function typeWriter() {
+            if (i < originalText.length) {
+                heroText.textContent += originalText.charAt(i);
+                i++;
+                setTimeout(typeWriter, 20);
+            }
+        }
+        
+        // Start typing effect after page load
+        window.addEventListener('load', function() {
+            setTimeout(typeWriter, 1000);
+        });
+
+        // Add iframe controls functionality
+        const previewControls = document.querySelectorAll('.preview-control');
+        previewControls.forEach(control => {
+            control.addEventListener('click', function() {
+                const previewItem = this.closest('.preview-item');
+                const iframe = previewItem.querySelector('.preview-frame');
+                
+                if (this.classList.contains('close')) {
+                    previewItem.style.opacity = '0';
+                    previewItem.style.transform = 'translateY(20px)';
+                    setTimeout(() => {
+                        previewItem.style.display = 'none';
+                    }, 300);
+                } else if (this.classList.contains('minimize')) {
+                    const frameContainer = previewItem.querySelector('.preview-frame-container');
+                    frameContainer.style.height = frameContainer.style.height === '0px' ? '450px' : '0px';
+                    
+                    if (window.innerWidth <= 1200) {
+                        frameContainer.style.height = frameContainer.style.height === '0px' ? '400px' : '0px';
+                    }
+                    if (window.innerWidth <= 768) {
+                        frameContainer.style.height = frameContainer.style.height === '0px' ? '300px' : '0px';
+                    }
+                    if (window.innerWidth <= 480) {
+                        frameContainer.style.height = frameContainer.style.height === '0px' ? '250px' : '0px';
+                    }
+                } else if (this.classList.contains('maximize')) {
+                    iframe.classList.toggle('fullscreen'); 
+                    if (iframe.classList.contains('fullscreen')) {
+                        document.body.style.overflow = 'hidden';
+                    } else {
+                        document.body.style.overflow = 'auto';
+                    }
+                }
+            });
+        });
+
+        // Create particles on page load
+        createParticles();
+    </script>
+</body>
+</html>
