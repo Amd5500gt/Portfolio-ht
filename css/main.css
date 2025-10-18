@@ -1282,7 +1282,7 @@
                 padding: 0 20px;
                 height: 70px;
             }
-              .cursor-follower{
+              .cursor, .cursor-follower{
                 display: none;
               }
             .header-left img {
