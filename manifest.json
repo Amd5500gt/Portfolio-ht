@@ -4,8 +4,8 @@
   "description": "My Portfolio and Projects",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#1a1a4a",
-  "theme_color": "##1a1a4a",
+  "background_color": "rgba(150, 150, 255)",
+  "theme_color": "rgba(150, 150, 255)",
   "orientation": "portrait-primary",
   "scope": "/",
   "icons": [
