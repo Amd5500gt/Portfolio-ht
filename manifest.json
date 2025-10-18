@@ -1,0 +1,36 @@
+{
+  "name": "Harjeet-Portfolio-v1",
+  "short_name": "HT-Portfolio",
+  "description": "My Portfolio and Projects",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a4a",
+  "theme_color": "##1a1a4a",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+
+    {
+      "src": "icon/icon-512.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/mobile-screenshot.png",
+      "sizes": "375x667",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "screenshots/desktop-screenshot.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["health", "fitness", "lifestyle","Learn"],
+  "lang": "en-US"
+}
